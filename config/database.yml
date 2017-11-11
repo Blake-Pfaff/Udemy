@@ -1,4 +1,4 @@
-# PostgreSQL. Versdefault: &default
+default: &default
   adapter: postgresql
   encoding: unicode
   host: db
