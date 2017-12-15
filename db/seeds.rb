@@ -22,12 +22,14 @@ puts "5 skills created"
 9.times do |port_item|
   Portfolio.create!(
     title: "Portfolio title #{port_item}",
+    sub_title: "Meh Sub title",
     body: "Jerky strip steak prosciutto tongue. Shankle filet mignon
     shoulder, strip steak meatball beef ribs ham jerky pastrami tail
     spare ribs meatloaf pork loin hamburger beef. Short loin flank shank
     t-bone sausage. Leberkas brisket salami, landjaeger spare ribs
     porchetta ground round. Tongue chicken flank leberkas prosciutto short
     loin cow bacon turkey shoulder.",
+
     main_image: "http://via.placeholder.com/600x400",
     thumb_image: "http://via.placeholder.com/350x200"
   )
